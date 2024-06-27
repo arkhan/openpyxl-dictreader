@@ -9,13 +9,13 @@ with open("LICENSE") as f:
 
 requirements = [
     "openpyxl==2.6.4 ; python_version < '3.0' ",
-    "openpyxl~=3.0.3 ; python_version >= '3.0' ",
+    "openpyxl~=3.1.4 ; python_version >= '3.0' ",
 ]
 
 
 setup(
     name="openpyxl-dictreader",
-    version="0.1.8",
+    version="0.1.10",
     description="A simple package to read openpyxl worksheets like a csv DictReader",
     long_description=readme,
     long_description_content_type="text/markdown",
